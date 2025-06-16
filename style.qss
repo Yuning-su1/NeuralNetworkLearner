@@ -1,0 +1,21 @@
+QMainWindow { background: qlineargradient(x1:0, y1:0, x2:1, y2:1, stop:0 #1E1E2E, stop:1 #2E2E4E); color: #E0E0FF; }
+
+QLabel { color: #E0E0FF; font-family: "Segoe UI"; font-size: 14px; }
+
+QPushButton { background-color: #3B82F6; color: #FFFFFF; border-radius: 8px; padding: 10px; font-family: "Segoe UI"; font-size: 14px; font-weight: bold; border: 1px solid #60A5FA; }
+
+QPushButton:hover { background-color: #2563EB; border: 1px solid #93C5FD; }
+
+QPushButton:pressed { background-color: #1E40AF; }
+
+QComboBox { background-color: #2D2D4A; color: #E0E0FF; border: 1px solid #60A5FA; border-radius: 5px; padding: 5px; font-family: "Segoe UI"; }
+
+QComboBox::drop-down { border: none; }
+
+QLineEdit { background-color: #2D2D4A; color: #E0E0FF; border: 1px solid #60A5FA; border-radius: 5px; padding: 5px; font-family: "Segoe UI"; }
+
+QTextEdit { background-color: #25253A; color: #E0E0FF; border: 1px solid #60A5FA; border-radius: 5px; padding: 5px; font-family: "Segoe UI"; }
+
+QProgressBar { background-color: #2D2D4A; color: #E0E0FF; border: 1px solid #60A5FA; border-radius: 5px; text-align: center; font-family: "Segoe UI"; }
+
+QProgressBar::chunk { background-color: #3B82F6; border-radius: 5px; }
